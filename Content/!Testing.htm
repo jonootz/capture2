@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="458" MadCap:lastWidth="1162">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="525" MadCap:lastWidth="1162">
     <head>
         <link href="Resources/TableStyles/Basic.css" rel="stylesheet" MadCap:stylesheetType="table" />
     </head>
@@ -12,7 +12,7 @@
             <col style="width: 25%;" class="Column-Column1" />
             <thead>
                 <tr class="Head-Header1">
-                    <th class="HeadE-Column1-Header1">Action</th>
+                    <th class="HeadE-Column1-Header1">Does Generated Images folder show when:</th>
                     <th class="HeadE-Column1-Header1">Flare 10</th>
                     <th class="HeadE-Column1-Header1">Flare 11.0.1</th>
                     <th class="HeadD-Column1-Header1">Flare 11x</th>
@@ -20,23 +20,33 @@
             </thead>
             <tbody>
                 <tr class="Body-Body1">
-                    <td class="BodyE-Column1-Body1">opening project</td>
-                    <td class="BodyE-Column1-Body1">Generated Images <b>does not</b> show in Roaming</td>
-                    <td class="BodyE-Column1-Body1">Generated Images <u style="font-style: italic; font-weight: bold;">does</u> show in Roaming</td>
-                    <td class="BodyD-Column1-Body1">Generated Images <b>does not</b> show in Roaming</td>
+                    <td class="BodyE-Column1-Body1">opening project (Web Mode)</td>
+                    <td class="BodyE-Column1-Body1">no</td>
+                    <td class="BodyE-Column1-Body1" style="color: #ff0000;">yes</td>
+                    <td class="BodyD-Column1-Body1">no</td>
+                </tr>
+                <tr class="Body-Body1">
+                    <td class="BodyE-Column1-Body1">View Print Medium</td>
+                    <td class="BodyE-Column1-Body1">
+                        <img src="Resources/Images/image.png" style="mc-thumbnail: popup;" /> gif and jpeg</td>
+                    <td class="BodyE-Column1-Body1" style="color: #ff0000;">yes</td>
+                    <td class="BodyD-Column1-Body1">
+                        <p>no <span style="color: #ff8c00;">(why not gif and jpeg)</span></p>
+                    </td>
                 </tr>
                 <tr class="Body-Body1">
                     <td class="BodyE-Column1-Body1">
                         <p>building target</p>
                         <p>&#160;</p>
                     </td>
-                    <td class="BodyE-Column1-Body1">Generated Images <b>does not</b> show in Roaming</td>
-                    <td class="BodyE-Column1-Body1">Generated Images <b style="text-decoration: underline; font-style: italic;">continues to</b> show in Roaming if already there, <b style="text-decoration: underline; font-style: italic;">and does show</b> if files were deleted prior to build</td>
-                    <td class="BodyD-Column1-Body1">Generated Images <b>does not</b> show in Roaming</td>
+                    <td class="BodyE-Column1-Body1">no</td>
+                    <td class="BodyE-Column1-Body1"><span style="color: #ff0000;">yes</span>
+                    </td>
+                    <td class="BodyD-Column1-Body1">no</td>
                 </tr>
                 <tr class="Body-Body1">
                     <td class="BodyE-Column1-Body1">building target Note</td>
-                    <td class="BodyE-Column1-Body1">Generated Images (some) show in output files</td>
+                    <td class="BodyE-Column1-Body1">Generated Images (some) show in output file folder</td>
                     <td class="BodyE-Column1-Body1">Does not anymore</td>
                     <td class="BodyD-Column1-Body1">
                         <p>Does not anymore</p>
@@ -45,23 +55,15 @@
                 </tr>
                 <tr class="Body-Body1">
                     <td class="BodyE-Column1-Body1">Regenerate Images when no changes</td>
-                    <td class="BodyE-Column1-Body1">&#160;</td>
-                    <td class="BodyE-Column1-Body1">&#160;</td>
-                    <td class="BodyD-Column1-Body1">&#160;</td>
+                    <td class="BodyE-Column1-Body1">no</td>
+                    <td class="BodyE-Column1-Body1">no</td>
+                    <td class="BodyD-Column1-Body1">no</td>
                 </tr>
                 <tr class="Body-Body1">
                     <td class="BodyE-Column1-Body1">Regenerate Images when changes exist</td>
                     <td class="BodyE-Column1-Body1">&#160;</td>
                     <td class="BodyE-Column1-Body1">&#160;</td>
                     <td class="BodyD-Column1-Body1">&#160;</td>
-                </tr>
-                <tr class="Body-Body1">
-                    <td class="BodyE-Column1-Body1">View Print Medium</td>
-                    <td class="BodyE-Column1-Body1">&#160;</td>
-                    <td class="BodyE-Column1-Body1">Generated Images <u style="font-style: italic; font-weight: bold;">does</u> show in Roaming</td>
-                    <td class="BodyD-Column1-Body1">
-                        <p>Generated Images <b>does not</b> show in Roaming</p>
-                    </td>
                 </tr>
                 <tr class="Body-Body1">
                     <td class="BodyE-Column1-Body1">Print medium set &gt;&#160;Viewed</td>
@@ -89,5 +91,9 @@
                 </tr>
             </tbody>
         </table>
+        <p>&#160;</p>
+        <p style="background-color: #ffd700;">OTHER&#160;ISSUES:</p>
+        <p style="background-color: #ffa500;">Custom Gif medium = cannot change DPI &gt;&#160;check print Gif in v6 and v7</p>
+        <p style="background-color: #ffa500;">'--&gt; bad in Print too</p>
     </body>
 </html>

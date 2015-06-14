@@ -89,3 +89,11 @@ MadCap|dropDownHotspot
 	color: #006600;
 }
 
+@media Customm
+{
+	body
+	{
+		background-color: #ffebcd;
+	}
+}
+
